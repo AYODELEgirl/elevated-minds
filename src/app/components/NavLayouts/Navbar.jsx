@@ -18,6 +18,7 @@ function Navbar() {
 
   const pathname = usePathname();
 
+  
   return (
     <div className="bg-primary flex justify-between items-center py-4 px-[1rem]">
       <div>
