@@ -20,7 +20,7 @@ function Navbar() {
 
   
   return (
-    <div className="bg-primary flex justify-between items-center py-4 px-[1rem]">
+    <div className="flex justify-between items-center py-4 px-[1rem]">
       <div>
         <Image src={logo} alt="logo" width={200} />
         {/* <Link href="/">
