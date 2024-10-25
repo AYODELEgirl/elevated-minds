@@ -18,9 +18,8 @@ function Navbar() {
 
   const pathname = usePathname();
 
-  
   return (
-    <div className="flex justify-between items-center py-4 px-[1rem]">
+    <div className="flex justify-between items-center py-4 px-[1rem] h-[70px] sticky top-0 bg-primary">
       <div>
         <Image src={logo} alt="logo" width={200} />
         {/* <Link href="/">
@@ -44,13 +43,15 @@ function Navbar() {
         })}
       </div>
 
-      <div className="text-white flex items-center gap-2">
+      <div className="text-white flex items-center gap-8 pe-4">
         <div>
-          <FaRegBell size={30} />
+          <FaRegBell size={25} />
         </div>
-        <div className="text-primary p-2 rounded-full bg-white">MB</div>
-        <div>
-          <IoIosArrowDown size={25} />
+        <div className="flex items-center gap-1">
+          <div className="text-primary p-[.4rem] rounded-full bg-white">MB</div>
+          <div>
+            <IoIosArrowDown size={18} />
+          </div>
         </div>
       </div>
     </div>

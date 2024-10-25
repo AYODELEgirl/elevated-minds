@@ -1,6 +1,9 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/NavLayouts/Navbar";
+import { ConfigProvider } from "@arco-design/web-react";
+import enUS from "@arco-design/web-react/es/locale/en-US";
+import "@arco-design/web-react/dist/css/arco.css";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
