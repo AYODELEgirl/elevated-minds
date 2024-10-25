@@ -16,6 +16,7 @@ function page() {
           <div className="flex justify-between items-center">
             <Header
               header={"School"}
+              count={6}
               text={"Empower Education: Support Schools and Students in Need"}
             />
 
